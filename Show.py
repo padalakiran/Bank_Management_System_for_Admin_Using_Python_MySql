@@ -4,8 +4,8 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="kiran1415@A",
-  database="PK_Bank"
+  password=Sql Password,
+  database= Name Of DataBase"
 )
 
 mycursor = mydb.cursor()
@@ -95,3 +95,5 @@ def showCu():
  except:
      print("Enter Valid Data")   
 #$showCu()
+
+#github:- @padalakiran
