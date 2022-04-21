@@ -5,10 +5,10 @@ import withdraw as Withd
 
 a=input('Enter Password: ')
 print()
-l=['1234abcd','dsp','bank','aravind','abc',244224]
+#enter paswords in the list
+l=[]
 
 
-#path = 'A:\python projects\Bank_managent\data\data.xlsx'
 try:
     if a in l:
         while True:
@@ -46,3 +46,5 @@ try:
         print('its worng man its not correct......')
 except:
     print('Enter Correct Element')
+    
+#github:- @padalakiran
