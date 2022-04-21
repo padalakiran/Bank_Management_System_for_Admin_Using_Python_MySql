@@ -3,8 +3,8 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="kiran1415@A",
-    database="PK_Bank"
+    password=Sql Password,
+  database= Name Of DataBase"
     )
 
 mycursor = mydb.cursor()
@@ -29,4 +29,4 @@ def with_dir():
                     print("Hey, {0} You are Sucusfully Debited Ammount..................".format(row[0]))
                 else:
                     print("User Not Found ")
-            
+         #github:- @padalakiran
